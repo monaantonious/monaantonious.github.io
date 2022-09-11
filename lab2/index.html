@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>lab1:job_aid</title>
+<title>lab2:job_aid</title>
 	
 	<style>
 div#wrapper {
@@ -42,6 +42,7 @@ h1 {
 h1 {
  
 	  color: #FCF6F2;
+
 }
  img {
   display: block;
@@ -67,8 +68,17 @@ p {
 	color: #123675;
 	text-align: left;
 	padding: 20px;
+	font-size: 20px;
 }
-
+	.stepTitle{
+	background-color:#123675;
+	color: #FCF6F2;
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 20px
+	
+		}
+	
     </style>	
 </head>
 
@@ -78,29 +88,29 @@ p {
   <div id="header">
 	<h1> Plan Your Day At the Aquarium
 	</h1>    
-     <h2> By  Mona Antonious </h2>  <br />
+     <h2> By  Mona Antonious </h2>
+	 <br />
 		  
   </div>
-<details>
-  <div id="step1">
 
+  <div id="step1">
+<details open>
     <summary class="stepTitle"> 
-	 <h3> Buy Tickets Online in Advance </h3> 
-    </summary>
+	  Buy Tickets Online in Advance  </summary>
+	
     <div class="stepContent">
       <div class="stepDescription">
 	  </div>
 	  <p>Tickets are not available for purchase in person. </p>
     </div>
       <div class="stepImage"><img src="img/step1.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
-</div>
-</details>
 
-  <div id="wrapper">
-	  <div id="step2">
-    <div class="stepTitle"> 
-	 <h3> Check the Driving Directions </h3> 
-	  </div>
+	  
+</details>
+	 
+ <details>
+    <summary class="stepTitle"> 
+		 Check the Driving Directions </summary>  
     <div class="stepContent">
       <div class="stepDescription"> 
 	  <p>Checking the shortest routes and directions can help you get to the Aquarium with minimal hassle.
@@ -112,12 +122,12 @@ The Monterey Bay Aquarium is located in Monterey at the west end of historic Can
 	  </div>
       <div class="stepImage"><img src="img/step2.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
     </div>
-	  </div>
-  <div id="step1">
-    <div class="stepTitle"> 
-	 <h3> Check Parking Options  </h3>
+</details>
+		  
+<details>  
+    <summary class="stepTitle"> 
+		Check Parking Options </summary>
 		
-	  </div>
     <div class="stepContent">
       <div class="stepDescription">
 		  <p>Garage and lots: 	   
@@ -130,19 +140,20 @@ The Monterey Bay Aquarium is located in Monterey at the west end of historic Can
 		  <p>Metered parking: 	   
 		  </p>
 		  <ul>
-  <li>CFoam St.</li>
-  <li>COcean View Blvd.e</li>
+  <li>Foam St.</li>
+  <li>Ocean View Blvd.</li>
   <li>Wave St.</li>
 </ul>  
 		  
 	  </div>
       <div class="stepImage"><img src="img/step3.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
     </div>
-	  </div>
-  <div id="step1">
-    <div class="stepTitle"> 
-	 <h3> Plan Around Feedings and Programs </h3> 
-	  </div>
+
+ </details>
+ <details>
+    <summary class="stepTitle"> 
+		Plan Around Feedings and Programs </summary>
+	  
     <div class="stepContent">
       <div class="stepDescription"> 
 	  <p>It's fun to see otters, penguins, and other exhibits anytime, but it's especially fun to see them at feeding time when the animals are sure to be active. Trainers will also share information about the animals during feedings.
@@ -151,11 +162,12 @@ Check their daily schedule on the <a href="https://www.montereybayaquarium.org/v
 	  </div>
       <div class="stepImage"><img src="img/step4.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
     </div>
-  </div>
-	 <div id="step1">
-    <div class="stepTitle"> 
-	 <h3> Grab a Visitor's Guide Map </h3> 
-	  </div>
+</details>
+	  
+<details>
+    <summary class="stepTitle"> 
+	 Grab a Visitor's Guide Map 
+	</summary>
     <div class="stepContent">
       <div class="stepDescription"> 
 	  <p>The Aquarium's layout of the exhibits will help you plan how you'll go through the attractions. This map shows visitor centers, gift shops, restrooms, and points of interest on the Aquarium's two floors.
@@ -168,14 +180,11 @@ The Aquarium's second floor has Penguins corner, Splash Zone, Jelly Fish, The Op
 		
 	 <div class="stepImage"><img src="img/step5b.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
     </div>
-		  </div>
+</details>
     
-  </div>
-	 <div id="wrapper">
-		 <div id="step1">
-    <div class="stepTitle"> 
-	 <h3> Strategize Your Visit </h3> 
-	  </div>
+ <details>
+    <summary class="stepTitle"> 
+		Strategize Your Visit </summary>  
     <div class="stepContent">
       <div class="stepDescription"> 
 	  <p>Get to the Aquarium as close to opening time as possible. Prioritize the exhibits you most want to see first. These are the exhibits that you don't want to miss:
@@ -188,9 +197,10 @@ Rocky Shore: Don't miss the Wave Crash, where you can witness the power of 600 g
  <div class="stepImage"><img src="img/step6.png" alt="Person looking at the content of a vending machine" width="444" height="304" /></div>
     </div>
 	  </div>
+</details>
     <!--stepContent--> 
     
-  </div>
+
   <!--step1-->
   
   <div id="step2">
