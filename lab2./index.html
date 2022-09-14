@@ -2,7 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>lab1:job_aid</title>
+<title>lab2.:job_aid</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+
+	
 <link href="css/jobaid.css" rel="stylesheet">
 	
 	<style>
@@ -78,12 +82,13 @@ p {
 	font-size: 22px	
 		}
 	.warning {
-	background-color: #FE9869;
+	background-color: #FED08C;
 	padding: 10px;
 	
 	border-radius: 10px;
-	color:aliceblue;
+	color:#032347;
 	font-size: 15px;
+	line-height:15pt;
 			
 		}
     </style>	
@@ -100,14 +105,19 @@ p {
     </div>
 
     <div id="step1">
-
-		<div class="stepTitle"> Buy Tickets Online in Advance
-		</div>
-
+<details open>
+	<summary class="stepTitle"> Buy Tickets Online in Advance </summary>
 		<div class="stepContent">
 
 		<div class="stepDescription">
-		<p>Tickets are not available for purchase in person. </p>
+		<p>Tickets are not available for purchase in person. <a href="https://www.montereybayaquarium.org/visit/admission-tickets">Buy your tickets now.</a> </p>
+			<p class="warning">
+			<span class="material-icons">warning</span>
+
+			<strong>Masks are recommended but not required at the Aquarium. </strong>This policy is subject to change.
+We’ve installed additional sanitizing stations throughout the Aquarium so you can lather as often as you like. 
+For the health and safety of yourself and others, stay home if you have a fever or cough. 
+</p>
 		</div>
 
 		<div class="stepImage">
@@ -115,14 +125,13 @@ p {
 		</div>
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step1-->
 
  	 <div id="step2">
-
-		<div class="stepTitle"> Check the Driving Directions
-		</div>
-
+<details>
+	<summary
+		class="stepTitle"> Check the Driving Directions </summary>
 		<div class="stepContent">
 
 		<div class="stepDescription">
@@ -136,14 +145,15 @@ p {
 		</div>
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step2-->
 
 	
 <div id="step3">
 
-		<div class="stepTitle"> Check Parking Options
-		</div>
+		<details>
+	<summary
+		class="stepTitle"> Check Parking Options</summary>
 
 		<div class="stepContent">
 
@@ -170,13 +180,13 @@ p {
 
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step3-->
 	
 <div id="step4">
 
-		<div class="stepTitle"> Plan Around Feedings and Programs
-		</div>
+		<details>
+	<summary class="stepTitle"> Plan Around Feedings and Programs</summary>
 
 		<div class="stepContent">
 
@@ -190,12 +200,13 @@ p {
 
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step4-->
 	<div id="step5">
 
-		<div class="stepTitle"> Grab a Visitor's Guide Map
-		</div>
+		<details>
+			<summary class="stepTitle"> Grab a Visitor's Guide Map</summary>
+		
 
 		<div class="stepContent">
 
@@ -210,13 +221,13 @@ p {
 
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step4-->
 	
 	<div id="step6">
 
-		<div class="stepTitle"> Strategize Your Visit
-		</div>
+		<details>
+			<summary class="stepTitle"> Strategize Your Visit</summary>
 
 		<div class="stepContent">
 
@@ -231,7 +242,7 @@ p {
 
 
 		</div><!--stepContent-->
-
+</details>
     </div><!--step6-->
 </div><!--wrapper-->
 </body>
