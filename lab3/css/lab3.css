@@ -1,24 +1,43 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	text-align: center;
+text-align: center;
 	
-  
+color: white;
+background-image: linear-gradient(#002E67, aqua);
+background-repeat: no-repeat;
+padding: 20px;
+
 }
+
 a {
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-bottom: 20px;
-	padding-top: 5px;
-    margin: 10px;
-	font-size: 100%;
-	background-color:#123675; 
-	color: white; 
+	padding-right:60px;
+padding-left:60px;
+	padding-top:5px;
+	padding-bottom:5px;
+    
+	margin: 10px;
+	font-size: 120%;
+	background-color: #000533; 
+	color:  white;
+	
+
 }
 
 a:hover {
-	font-size:100%;
-	background-color:#F98100;
-	color:white;
+	font-size:120%;
+	background-color: darkorange; 
+	color: white; 
+}
+h1{
+	font-size: 50px;
+	margin-top: 5px;
+	text-shadow: 2px 2px 8px black;	
 }
 
+h2{
+	font-size: 20px;
+	text-shadow: 1px 1px 1px black;
+	padding-bottom:50px;
+	padding-top: 20px;
+}
