@@ -8,15 +8,15 @@
 
 <body>
 	 <h1> Monterey Bay Aquarium</h1>
-<a href="index.html">  Page 1 </a>
-	<a href="page2.html"> Page 2 </a>
-	<a href="page3.html"> Page 3 </a>
-	<a href="page4.html"> Page 4 </a>
+<a href="index.html">Live Cam</a>
+	<a href="page2.html">Slideshow </a>
+	<a href="page3.html">Weather </a>
+	<a href="page4.html">Exhibits</a>
 <br><br>
 	
-	<h2> Brief description of content to be embedded
-	</h2>
+<h2> Aquarium Images Slideshow
+</h2>
 	<!-- iFrame code will be added below -->
-<iframe style="position: relative; top: 0; left: 0; width: 60%; height: 60%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=aquarium&sort=0&by=keywords&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://www.compareboilercover.co.uk">Compare Boiler Cover UK</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+<iframe style="position: relative; top: 0; left: 0; width: 70%; height: 70%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=aquarium&sort=0&by=keywords&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://www.compareboilercover.co.uk">Compare Boiler Cover UK</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
 </body>
 </html>
