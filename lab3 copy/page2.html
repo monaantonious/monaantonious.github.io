@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>lab3:embedding external content using iframes</title>
+<link href="css/lab3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1> Deep Sea Marine Life </h1>
+
+<p><a href="index.html">  Audio </a>
+<a href="page2.html">Video </a></p>
+<p>&nbsp;</p>
+<p><br>
+  <br>
+</p>
+	
+
+<!-- iFrame code will be added below -->
+<video  controls  width="500">
+  <source src="video/vedio2.mp4" type="video/mp4" />
+  <source src="video/vedio2.mp4" type="video/ogg" />
+	
+  <track id="entrack" label="English subtitles" kind="captions" src="video/captions.vtt" srclang="en" default> HTML5 Video not supported 
+	
+</video>
+<p>&nbsp;</p>
+<video  controls  width="500">
+  <source src="video/video1.mp4" type="video/mp4" />
+  <source src="video/vedio1.mp4" type="video/ogg" />
+  <track id="track" label="English subtitles" kind="captions" src="video/captions.vtt" srclang="en" default> HTML5 Video not supported 
+</video>
+	
+	
+</body>
+</html>
