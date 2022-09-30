@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>lab5</title>
+<link href="css/lab5.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	
+	<h1> Deep Sea Marine Life </h1>
+	
+	<a href="index.html">  Question1 </a>
+	<a href="page2.html"> Question2 </a>
+
+<br><br>
+	
+
+<div id="wrapper">
+ <br><br>
+<h2>Why are many deep-sea creatures red in color?</h2>
+ 
+<h4>Click on one of the following choices</h4>
+
+<h2 onclick="wrongAnswer1()" class="choices"> To attract their prey
+</h2>
+<h2 onclick="wrongAnswer2()" class="choices"> To refract light </h2>
+<h2 onclick="rightAnswer()" class="choices"> To hide in the dark </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> To help them swim faster </h2>
+
+<div id="feedback"></div>
+<img id="1" src="img/1.jpeg" />
+</div>
+	
+   <script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:#94FCFF'> Correct, the red color makes them nearly invisible to predators in the darkness of the deep sea.</h2>");
+         $("#1").show();
+      }
+	      function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:#FFD05C'> Instinctively deep sea creatures would hide from their prey! </h2>");
+      $("#1").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:#FFD05C'> Wrong answer! </h2>");
+      $("#1").hide();
+   }
+
+   </script>
+
+</body>
+</html>
