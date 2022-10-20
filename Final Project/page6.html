@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Final Project</title>
+<link href="css/lab3.css" rel="stylesheet" type="text/css">
+	
+		<img src="img/logo.png" alt="logo" width="204" height="66" align="left">
+	<br>
+<br>
+	<br>
+<br>
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	
+</head>	
+<body>
+
+<h1> Sustainable Procurement</h1>
+
+<a href="index.html">  Home </a>
+	<a href="page2.html">Considerations </a>
+	<a href="page3.html">Sustainability Checklist </a>
+	<a href="page4.html"> Policies</a>
+	<a href="page5.html"> Practices</a>
+	<a href="page6.html"> Products</a>
+<br>
+<br>
+	
+<h2> Environmentally Responsible Products
+</h2>
+
+	<div class="adjust-line-height">
+  What are energy efficient appliances?
+</div>
+<h4 id="hint">Hint: Hover over the image below to find out!</h4>
+<img src="img/house.jpg" width="427" height="436" id="house" onmouseenter="showAnswer()" /> <img src="img/star.jpg" width="427" height="436" id="star" onmouseleave="hideAnswer()" />
+
+<div id="answer"></div>
+<!-- This is a placeholder to display here the answer--> 
+
+
+<!-- closing “wrapper” --> 
+<script>
+function showAnswer() {
+$("#house").hide();
+$("#star").show();
+$("#answer").html("<h3>They are ENERGY STAR Certified Products</h3>");
+}
+
+function hideAnswer() {
+$("#house").show();
+$("#star").hide();
+$("#answer").html(""); 
+}
+</script>
+
+	
+<footer>
+  <h5 class="footer">Mona Antonious</h5>
+  <h5 class="footer">Final Project Website</h5>
+ 
+</footer>
+</body>
+</html>

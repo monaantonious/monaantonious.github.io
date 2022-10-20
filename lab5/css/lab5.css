@@ -18,10 +18,21 @@ h1 {
 }
 
 
- #1 {
+ #2 {
 border: black 5px solid;
 }
  
+
+div {
+    display: none;
+}
+
+a:hover + div {
+    display: block;
+}
+
+
+
  #1 {
 display: none; /* hides content */
 border: black 5px solid;
